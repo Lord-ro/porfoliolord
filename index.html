@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rogelio Barreiros Prada | Diseñador Web Freelance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+     <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para íconos (opcional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<header>
+    
+  
+     <!-- Menú de navegación sticky -->
+      
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo fas fa-bolt me-2">RBDev<span></span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#portfolio">Proyectos</a></li>
+                <li><a href="portfoliorogelio.html">Portafolio</a></li>
+                <li><a href="#testimonials">Opiniones</a></li>
+                <li><a href="#blog">Formacion</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                
+                 <!-- Botón de cambio de tema -->
+                    <li class="nav-item">
+                        <button id="theme-toggle" class="btn btn-outline-secondary ms-2">
+                            <i class="fas fa-moon"></i> Tema Oscuro
+                        </button>
+                    </li>
+            </ul>
+             <div class="header-controls">
+               
+                <button class="hamburger" aria-label="Menú móvil" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+ 
+
+    </header>
+
+
+
+
+
+    <!-- Sección Inicio -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1> <span>Rogelio Barreiros Prada</span></h1>
+                <h2>Diseñador Web Freelance</h2>
+                <p>Creo experiencias digitales hermosas, funcionales y accesibles para todos.</p>
+                <a href="#contact" class="btn">Contrátame</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://randomuser.me/api/portraits/men/88.jpg" alt="Rogelio Barreiros Prada - Diseñador Web">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Mis <span>Servicios</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Diseño Web Responsivo</h3>
+                    <p>Sitios web que se adaptan perfectamente a cualquier dispositivo, desde móviles hasta escritorios.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Maquetación HTML/CSS/JAVASCRIPT</h3>
+                    <p>Transformo diseños en código limpio, semántico y optimizado para un rendimiento superior.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-search"></i>
+                    <h3>Optimización SEO</h3>
+                    <p>Mejoro la visibilidad de tu sitio en buscadores con técnicas de SEO básico y buenas prácticas.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-edit"></i>
+                    <h3>Formularios Inteligentes</h3>
+                    <p>Creo formularios interactivos con validación avanzada para una mejor experiencia de usuario.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Diseño UI/UX</h3>
+                    <p>Interfaces intuitivas y atractivas centradas en la experiencia del usuario.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Webs Móviles</h3>
+                    <p>Especial enfoque en diseño mobile-first para la creciente audiencia móvil.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Portafolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Mis <span>Proyectos</span></h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="design">Diseño</button>
+                <button class="filter-btn" data-filter="seo">Juegos</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Proyecto 1 -->
+                <div class="portfolio-card" data-category="web">
+                    <img src="https://media.istockphoto.com/id/2140172947/es/foto/mujeres-que-usan-computadoras-port%C3%A1tiles-que-compran-en-l%C3%ADnea-con-%C3%ADconos-de-carrito-con-una.webp?a=1&b=1&s=612x612&w=0&k=20&c=Ui33IwtUn9uRoBYd8m6PUJKk3MwHR0so3hdvbbWcTrc=" alt="Proyecto Web 1">
+                    <div class="portfolio-info">
+                        <h3>Web Gestiòn de Coches</h3>
+                        <p>E-commerce para Coches Modernos.</p>
+                        <div class="tech-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <button class="btn view-details" data-project="1">Ver más</button>
+                    </div>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="portfolio-card" data-category="design">
+                    <img src="https://media.istockphoto.com/id/2149058678/es/foto/compras-en-l%C3%ADnea-manos-y-persona-en-tableta-con-sitio-web-de-ropa-tienda-de-internet-y-sitio.jpg?s=612x612&w=0&k=20&c=-TIN16G8-73w6gUNDtFRMwwDhFg9KDWlCQ1vBzCZC8I=" alt="Proyecto Web 2">
+                    <div class="portfolio-info">
+                        <h3>Web de Musica (estilo spotify)</h3>
+                        <p>Diseño moderno y minimalista para una startup de mùsica.</p>
+                        <div class="tech-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <button class="btn view-details" data-project="2">Ver más</button>
+                    </div>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="portfolio-card" data-category="web,seo">
+                    <img src="https://media.istockphoto.com/id/2151295139/es/foto/dedos-de-mano-de-jugador-profesional-en-l%C3%ADnea.jpg?s=1024x1024&w=is&k=20&c=dXWm_5vVCUpexYB6zyoVpfq4KobWTWvN--Zxh8EzZeY=" alt="Proyecto Web 3">
+                    <div class="portfolio-info">
+                        <h3>Desarrollo de Webs de Juegos</h3>
+                        <p>Diseño moderno y atractivo para disfrutar de una experiencia unica .</p>
+                        <div class="tech-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <button class="btn view-details" data-project="3">Ver más</button>
+                    </div>
+                </div>
+                <!-- Proyecto 4 -->
+                <div class="portfolio-card" data-category="design,web">
+                    <img src="https://media.istockphoto.com/id/867269152/es/foto/dedo-toque-tableta-digital-con-la-p%C3%A1gina-web-de-coches.jpg?s=1024x1024&w=is&k=20&c=mmzPPY7GCAIjwBbYbGZUxdcz4ULvMaaN3OM5T7n1a0A=" alt="Proyecto Web 4">
+                    <div class="portfolio-info">
+                        <h3>Aplicación del Tiempo</h3>
+                        <p>Desarrollo web del tiempo/Api  en diferentes ciudades.</p>
+                        <div class="tech-tags">
+                            <span>CSS Grid</span>
+                            <span>HTML5</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <button class="btn view-details" data-project="4">Ver más</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal para detalles del proyecto -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <!-- Contenido dinámico se insertará aquí via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección Testimonios -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Opiniones de <span>Clientes</span></h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Cliente 1">
+                        <div>
+                            <h4>María González</h4>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Rogelio transformó completamente mi presencia online. Su atención al detalle y comprensión de mis necesidades fueron excepcionales. ¡Recomendado 100%!"</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Cliente 2">
+                        <div>
+                            <h4>Carlos Mendoza</h4>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Trabajar con Rogelio fue una experiencia increíble. Entregó el proyecto antes de lo esperado y superó todas mis expectativas. Definitivamente volveré a contratarlo."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Cliente 3">
+                        <div>
+                            <h4>Laura Jiménez</h4>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">☆</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Excelente profesional. Comprendió perfectamente la esencia de mi marca y la plasmó en el diseño web. La comunicación fue fluida en todo momento."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/men/81.jpg" alt="Cliente 4">
+                        <div>
+                            <h4>Javier Ruiz</h4>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Después de malas experiencias con otros freelancers, encontrar a Rogelio fue un alivio. Profesional, puntual y con un dominio técnico impresionante."</p>
+   
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button id="prev-testimonial" class="slider-btn"><i class="fas fa-chevron-left"></i></button>
+                <button id="next-testimonial" class="slider-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Formacion -->
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">Mi <span>Formaciòn</span></h2>
+            <div class="blog-posts">
+                <article class="blog-post">
+                    <img src="https://media.istockphoto.com/id/1552848373/es/foto/mujer-tableta-y-holograma-por-la-noche-en-dise%C3%B1o-web-con-tablero-interfaz-o-pantalla-hud-en-la.jpg?s=612x612&w=0&k=20&c=R7Vi1hUnc0sN_3EYBcbQtCjDlaMZMB5UiAaJy98UU1o=" alt="Post 1">
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date"><i class="far fa-calendar-alt"></i> 02 Julio, 2025</span>
+                            <span class="post-category"><i class="far fa-folder"></i> Diseño Web</span>
+                        </div>
+                        <h3>Curso de Creaciòn de pàginas Web</h3>
+                        <p>Exploramos los principios clave que todo diseñador web debería conocer para crear experiencias digitales efectivas en 2025...</p>
+                        
+                    </div>
+                </article>
+              
+
+             <article class="blog-post">
+                    <img src="https://media.istockphoto.com/id/2098359215/es/foto/concepto-de-marketing-digital-hombre-de-negocios-que-usa-una-computadora-port%C3%A1til-con-an%C3%A1lisis.jpg?s=1024x1024&w=is&k=20&c=2_21o6_jjujQzOTiibdpFmKbaaZjvoI0_1ME9ZdwTTs=" alt="Post 2">
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date"><i class="far fa-calendar-alt"></i> 2 Abril, 2024</span>
+                            <span class="post-category"><i class="far fa-folder"></i> SEO</span>
+                        </div>
+                        <h3>Desenvolvimiento de Aplicaciones con Tecnologia Web</h3>
+                        <p>Programaciòn Web  en el contorno del Cliente y en el contorno Servidor.Implantaciòn de Aplicaciones Web en Internet, Intranet y Extranet.
+                            Wordpress y SEO.
+                        </p>
+                        
+                    </div>
+                </article>
+            </div>
+
+              <article class="blog-post">
+                    <img src="https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZ3JhbWFkb3J8ZW58MHx8MHx8fDA%3D" alt="Post 2">
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date"><i class="far fa-calendar-alt"></i> 2 Abril, 2023</span>
+                            <span class="post-category"><i class="far fa-folder"></i> SEO</span>
+                        </div>
+                        <h3>Curso de Operaciòn de Sistemas Informàticos</h3>
+                        <p>Proceso de implementación, gestión, entrega y soporte de servicios de TI para satisfacer las necesidades comerciales de los usuarios internos y externos.
+                            Instalaciòn y Configuraciòn de Redes.
+                        </p>
+                        
+                    </div>
+                </article>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contácta<span>me</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¿Listo para comenzar tu proyecto?</h3>
+                    <p>Completa el formulario y me pondré en contacto contigo lo antes posible. También puedes contactarme directamente a través de:</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contacto@rbarreiros.dev</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+34 123 456 789</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Ourense, España</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Tu nombre completo" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected>Selecciona un servicio</option>
+                            <option value="web-design">Diseño Web</option>
+                            <option value="development">Desarrollo Web</option>
+                            <option value="seo">Optimización SEO</option>
+                            <option value="consulting">Consultoría</option>
+                            <option value="other">Otro</option>
+                        </select>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+                        <span class="error-message"></span>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensaje</button>
+                    <div id="successMessage" class="success-message">Mensaje enviado correctamente</div>
+                </form>
+                
+            </div>
+        </div>
+         <!-- Modal de confirmación -->
+    <div id="confirmationModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-icon">✓</div>
+            <h3 class="modal-title">¡Mensaje Enviado!</h3>
+            <p class="modal-message">Gracias por tu mensaje. Me pondré en contacto contigo lo antes posible.</p>
+            <button class="modal-button" id="closeModal">Aceptar</button>
+        </div>
+
+        <!-- Modal de error -->
+    <div id="errorModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-icon error-icon">✗</div>
+            <h3 class="modal-title error-title">Error al enviar</h3>
+            <p class="modal-message" id="errorMessage">Hubo un problema al enviar tu mensaje. Por favor intenta nuevamente más tarde.</p>
+            <button class="modal-button" id="closeErrorModal">Aceptar</button>
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Rogelio Barreiros Prada</h3>
+                    <p>Diseñador y desarrollador web freelance especializado en crear experiencias digitales memorables y funcionales.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#services">Servicios</a></li>
+                        <li><a href="#portfolio">Proyectos</a></li>
+                        <li><a href="#blog">Formaciòn</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li><a href="#services">Diseño Web Responsivo</a></li>
+                        <li><a href="#services">Maquetación</a></li>
+                        <li><a href="#services">Optimización SEO</a></li>
+                        <li><a href="#services">Diseño UI/UX</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Suscríbete para recibir consejos y novedades sobre diseño web.</p>
+                    <form id="newsletter-form">
+                        <input type="email" placeholder="Tu correo electrónico" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rogelio Barreiros Prada. Todos los derechos reservados.</p>
+                <div class="legal-links">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos de Servicio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+     
+
+
+    <!-- Botón flotante para volver arriba -->
+    <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="script.js"></script>
+
+   
+</div>
+</body>
+</html>
