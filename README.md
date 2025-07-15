@@ -77,7 +77,7 @@ Haz clic en "Go Live" en la barra inferior de VS Code
 - Haz push a la rama (git push origin feature/mejora)
 
 - Abre un Pull Request
-- 
+  
 
 ##  Autores ✒️
 
@@ -85,7 +85,7 @@ Rogelio Barreiros Prada
 
 
 ## Licencia
-Este proyecto está bajo la licencia (Rogelio Barreiros Prada) . Consulta el archivo LICENSE para más información.
+Este proyecto está bajo la licencia (Rogelio Barreiros Prada) .
 
 ## Contacto
 
