@@ -13,6 +13,13 @@ Portafolio profesional de Rogelio Barreiros Prada, diseñador web freelance. Est
 - Tema claro/oscuro configurable por el usuario
 - Efectos de scroll suaves y animaciones
 
+  ## Construido con 🛠️
+ Herramientas utilizadas para crear el proyecto
+
+Javascript - El framework web usado
+HTML - Manejador del codigo principal
+CSS - Usado para generar los estilos
+
   ## Instalación
 
 Para instalar y ejecutar este proyecto localmente:
