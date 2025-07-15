@@ -6,12 +6,12 @@ Portafolio profesional de Rogelio Barreiros Prada, diseñador web freelance. Est
 
 ## Características principales
 
-[- Diseño responsive que se adapta a todos los dispositivos]
-[- Sección de habilidades con barras de progreso animadas]
-[- Galería de proyectos destacados]
-[- Formulario de contacto funcional]
-[- Tema claro/oscuro configurable por el usuario]
-[- Efectos de scroll suaves y animaciones]
+- Diseño responsive que se adapta a todos los dispositivos
+- Sección de habilidades con barras de progreso animadas
+- Galería de proyectos destacados
+- Formulario de contacto funcional
+- Tema claro/oscuro configurable por el usuario
+- Efectos de scroll suaves y animaciones
 
   ## Instalación
 
@@ -76,6 +76,8 @@ Este proyecto está bajo la licencia . Consulta el archivo LICENSE para más inf
 
 Contacto
 📧 Email: rogelio_barreiro@hotmail.com
+
+Pagina Web: https://lord-ro.github.io/porfoliolord/
 
 🔗 LinkedIn: linkedin.com/in/rbarreiro
 
