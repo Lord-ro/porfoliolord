@@ -62,6 +62,8 @@ Haz clic en "Go Live" en la barra inferior de VS Code
 
 - SweetAlert2 para mensajes emergentes
 
+- Google Analytics 
+
 ## Contribuciones
 
 - ¡Las contribuciones son bienvenidas! Si encuentras algún error o tienes sugerencias para mejorar:
@@ -75,15 +77,22 @@ Haz clic en "Go Live" en la barra inferior de VS Code
 - Haz push a la rama (git push origin feature/mejora)
 
 - Abre un Pull Request
+- 
+
+##  Autores ✒️
+
+Rogelio Barreiros Prada 
+
 
 ## Licencia
-Este proyecto está bajo la licencia . Consulta el archivo LICENSE para más información.
+Este proyecto está bajo la licencia (Rogelio Barreiros Prada) . Consulta el archivo LICENSE para más información.
 
 ## Contacto
+
 📧 Email: rogelio_barreiro@hotmail.com
 
 Pagina Web: https://lord-ro.github.io/porfoliolord/
 
 🔗 LinkedIn: linkedin.com/in/rbarreiro
 
-📱 Teléfono: +34 633 87 40 71
+
