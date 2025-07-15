@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es" data-bs-theme="light">
 <head>
@@ -11,55 +10,54 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome para íconos (opcional) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- SweetAlert2 para mensajes bonitos -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
 
     <header>
-        
-<!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-        <div class="container">
-            <!-- Logo/Marca -->
-            <a class="navbar-brand" href="#">
-                <i class="fas fa-bolt me-2"></i>RBDev
-            </a>
-            
-            <!-- Botón hamburguesa para móviles -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <!-- Elementos del menú -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#hero"><i class="fas fa-home me-1"></i> Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sobre-mi"><i class="fas fa-info-circle me-1"></i> Sobre MI</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#habilidades"><i class="fas fa-briefcase me-1"></i> Habilidades</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#proyectos"><i class="fas fa-briefcase me-1"></i> Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacto"><i class="fas fa-envelope me-1"></i> Contacto</a>
-                    </li>
-                    <!-- Botón de cambio de tema -->
-                    <li class="nav-item">
-                        <button id="theme-toggle" class="btn btn-outline-secondary ms-2">
-                            <i class="fas fa-moon"></i> Tema Oscuro
-                        </button>
-                    </li>
-                </ul>
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+            <div class="container">
+                <!-- Logo/Marca -->
+                <a class="navbar-brand" href="#">
+                    <i class="fas fa-bolt me-2"></i>RBDev
+                </a>
+                
+                <!-- Botón hamburguesa para móviles -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Elementos del menú -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html"><i class="fas fa-home me-1"></i> Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre-mi"><i class="fas fa-info-circle me-1"></i> Sobre MI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#habilidades"><i class="fas fa-briefcase me-1"></i> Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#proyectos"><i class="fas fa-briefcase me-1"></i> Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto"><i class="fas fa-envelope me-1"></i> Contacto</a>
+                        </li>
+                        <!-- Botón de cambio de tema -->
+                        <li class="nav-item">
+                            <button id="theme-toggle" class="btn btn-outline-secondary ms-2">
+                                <i class="fas fa-moon"></i> Tema Oscuro
+                            </button>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     </header>
-
-    
 
     <!-- Contenido de ejemplo -->
     <main>
@@ -72,28 +70,18 @@
         </section>
 
         <section id="sobre-mi">
-            <h2></h2>
             <div class="sobre-mi-container">
                 <div class="sobre-mi-texto">
-                    
                     <img src="https://randomuser.me/api/portraits/men/88.jpg" alt="Foto de perfil" style="width:200px;height:200px;">
-                    
-                   <h2>Experiencia Profesional</h2>
-                
+                    <h2>Experiencia Profesional</h2>
                     <p> Rogelio Barreiros Prada
-Galicia, España • linkedin.com/in/rbarreiro • +34 633 87 40 71 • rogelio_barreiro@hotmail.com </p>
+                    Galicia, España • linkedin.com/in/rbarreiro • +34 633 87 40 71 • rogelio_barreiro@hotmail.com </p>
 
- <p>Desarrollador Web con 5 años de experiencia en diseño y creación de paginas Web. Apasionado dar soluciones mediante tecnologías innovadoras.</p>
-Experiencia como Desarrollador de Software. Lideré el desarrollo de proyectos  FrontEnd en Venezuela, logrando un 40% de mejora en la entrega de productos, un 25% en rendimiento web y una plataforma unificada. 
+                    <p>Desarrollador Web con 5 años de experiencia en diseño y creación de paginas Web. Apasionado dar soluciones mediante tecnologías innovadoras.</p>
+                    Experiencia como Desarrollador de Software. Lideré el desarrollo de proyectos  FrontEnd en Venezuela, logrando un 40% de mejora en la entrega de productos, un 25% en rendimiento web y una plataforma unificada. 
+                    </p>
 
-
-
-    </p>
-
-    
-                    
                     <p>Mi enfoque combina conocimientos técnicos  con una comprensión profunda de las necesidades del negocio, permitiéndome diseñar soluciones que generan valor real.</p>
-                
                 </div>
             </div>
         </section>
@@ -175,14 +163,14 @@ Experiencia como Desarrollador de Software. Lideré el desarrollo de proyectos  
 
         <section id="contacto">
             <h2>Contacto</h2>
-            <form class="contact-form">
+            <form id="contactForm" class="contact-form">
                 <div class="form-group">
                     <label for="nombre">Nombre</label>
-                    <input type="text" placeholder="Nombre"id="nombre" name="nombre" required>
+                    <input type="text" placeholder="Nombre" id="nombre" name="nombre" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <input type="email" placeholder="Tu correo electrónico" id="email" name="email" required>
                 </div>
                 <div class="form-group">
                     <label for="asunto">Asunto</label>
@@ -194,6 +182,9 @@ Experiencia como Desarrollador de Software. Lideré el desarrollo de proyectos  
                 </div>
                 <button type="submit" class="submit-btn">Enviar Mensaje</button>
             </form>
+            <div id="formSuccess" class="alert alert-success mt-3" style="display: none;">
+                ¡Mensaje enviado correctamente! Me pondré en contacto contigo pronto.
+            </div>
         </section>
     </main>
 
@@ -211,89 +202,148 @@ Experiencia como Desarrollador de Software. Lideré el desarrollo de proyectos  
     <!-- Bootstrap 5 JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     
-<script>
-
-
-
-       // Función para cambiar entre modo claro y oscuro
-
-document.addEventListener('DOMContentLoaded', function() {
-    const themeToggle = document.getElementById('theme-toggle');
-    const htmlElement = document.documentElement;
-    
-    // Comprobar preferencia del usuario
-    const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
-    
-    // Establecer tema inicial
-    if (localStorage.getItem('theme') === 'dark' || 
-        (!localStorage.getItem('theme') && prefersDarkScheme.matches)) {
-        htmlElement.setAttribute('data-bs-theme', 'dark');
-        updateToggleButton(true);
-    } else {
-        htmlElement.setAttribute('data-bs-theme', 'light');
-        updateToggleButton(false);
-    }
-    
-    // Escuchar cambios en la preferencia del sistema
-    prefersDarkScheme.addListener(e => {
-        if (!localStorage.getItem('theme')) {
-            if (e.matches) {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeToggle = document.getElementById('theme-toggle');
+            const htmlElement = document.documentElement;
+            
+            // Comprobar preferencia del usuario
+            const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+            
+            // Establecer tema inicial
+            if (localStorage.getItem('theme') === 'dark' || 
+                (!localStorage.getItem('theme') && prefersDarkScheme.matches)) {
                 htmlElement.setAttribute('data-bs-theme', 'dark');
                 updateToggleButton(true);
             } else {
                 htmlElement.setAttribute('data-bs-theme', 'light');
                 updateToggleButton(false);
             }
-        }
-    });
-    
-    // Manejar clic en el botón de tema
-    themeToggle.addEventListener('click', function() {
-        const isDark = htmlElement.getAttribute('data-bs-theme') === 'dark';
-        if (isDark) {
-            htmlElement.setAttribute('data-bs-theme', 'light');
-            localStorage.setItem('theme', 'light');
-            updateToggleButton(false);
-        } else {
-            htmlElement.setAttribute('data-bs-theme', 'dark');
-            localStorage.setItem('theme', 'dark');
-            updateToggleButton(true);
-        }
-    });
-    
-    function updateToggleButton(isDark) {
-        const icon = themeToggle.querySelector('i');
-        if (isDark) {
-            icon.classList.replace('fa-moon', 'fa-sun');
-            themeToggle.innerHTML = '<i class="fas fa-sun"></i> Tema Claro';
-        } else {
-            icon.classList.replace('fa-sun', 'fa-moon');
-            themeToggle.innerHTML = '<i class="fas fa-moon"></i> Tema Oscuro';
-        }
-    }
-    
-    
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const progressBars = entry.target.querySelectorAll('.progress-bar');
-                progressBars.forEach(bar => {
-                    const width = bar.style.width;
-                    bar.style.width = '0';
-                    setTimeout(() => {
-                        bar.style.width = width;
-                    }, 100);
+            
+            // Escuchar cambios en la preferencia del sistema
+            prefersDarkScheme.addListener(e => {
+                if (!localStorage.getItem('theme')) {
+                    if (e.matches) {
+                        htmlElement.setAttribute('data-bs-theme', 'dark');
+                        updateToggleButton(true);
+                    } else {
+                        htmlElement.setAttribute('data-bs-theme', 'light');
+                        updateToggleButton(false);
+                    }
+                }
+            });
+            
+            // Manejar clic en el botón de tema
+            themeToggle.addEventListener('click', function() {
+                const isDark = htmlElement.getAttribute('data-bs-theme') === 'dark';
+                if (isDark) {
+                    htmlElement.setAttribute('data-bs-theme', 'light');
+                    localStorage.setItem('theme', 'light');
+                    updateToggleButton(false);
+                } else {
+                    htmlElement.setAttribute('data-bs-theme', 'dark');
+                    localStorage.setItem('theme', 'dark');
+                    updateToggleButton(true);
+                }
+            });
+            
+            function updateToggleButton(isDark) {
+                const icon = themeToggle.querySelector('i');
+                if (isDark) {
+                    icon.classList.replace('fa-moon', 'fa-sun');
+                    themeToggle.innerHTML = '<i class="fas fa-sun"></i> Tema Claro';
+                } else {
+                    icon.classList.replace('fa-sun', 'fa-moon');
+                    themeToggle.innerHTML = '<i class="fas fa-moon"></i> Tema Oscuro';
+                }
+            }
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const progressBars = entry.target.querySelectorAll('.progress-bar');
+                        progressBars.forEach(bar => {
+                            const width = bar.style.width;
+                            bar.style.width = '0';
+                            setTimeout(() => {
+                                bar.style.width = width;
+                            }, 100);
+                        });
+                    }
+                });
+            }, { threshold: 0.5 });
+            
+            const skillsSection = document.getElementById('habilidades');
+            if (skillsSection) {
+                observer.observe(skillsSection);
+            }
+            
+            // Manejo del formulario de contacto
+            const contactForm = document.getElementById('contactForm');
+            const formSuccess = document.getElementById('formSuccess');
+            
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Validar el formulario
+                    const nombre = document.getElementById('nombre').value.trim();
+                    const email = document.getElementById('email').value.trim();
+                    const asunto = document.getElementById('asunto').value.trim();
+                    const mensaje = document.getElementById('mensaje').value.trim();
+                    
+                    if (!nombre || !email || !asunto || !mensaje) {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Error',
+                            text: 'Por favor completa todos los campos del formulario.'
+                        });
+                        return;
+                    }
+                    
+                    // Validar email
+                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (!emailRegex.test(email)) {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Error',
+                            text: 'Por favor ingresa un correo electrónico válido.'
+                        });
+                        return;
+                    }
+                    
+                    // Simular envío del formulario (en un caso real, aquí iría la llamada AJAX)
+                    Swal.fire({
+                        title: 'Enviando mensaje...',
+                        allowOutsideClick: false,
+                        didOpen: () => {
+                            Swal.showLoading();
+                            
+                            // Simular tiempo de envío
+                            setTimeout(() => {
+                                Swal.fire({
+                                    icon: 'success',
+                                    title: '¡Mensaje enviado!',
+                                    text: 'Gracias por contactarme. Me pondré en contacto contigo pronto.',
+                                    confirmButtonText: 'Aceptar'
+                                });
+                                
+                                // Mostrar mensaje de éxito en el formulario
+                                formSuccess.style.display = 'block';
+                                
+                                // Ocultar el mensaje después de 5 segundos
+                                setTimeout(() => {
+                                    formSuccess.style.display = 'none';
+                                }, 5000);
+                                
+                                // Limpiar el formulario
+                                contactForm.reset();
+                            }, 1500);
+                        }
+                    });
                 });
             }
         });
-    }, { threshold: 0.5 });
-    
-    const skillsSection = document.getElementById('habilidades');
-    if (skillsSection) {
-        observer.observe(skillsSection);
-    }
-});
-   
     </script>
 </body>
 </html>

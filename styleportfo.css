@@ -309,6 +309,7 @@ button:active {
 #contacto {
     padding: 6rem 5%;
     
+    
 }
 
 #contacto h2 {
@@ -575,10 +576,7 @@ footer {
     color: #f8f9fa;
 }
 
-[data-bs-theme="dark"] .project-card {
-    background-color: #2d2d2d;
-    border: 1px solid #444;
-}
+
 
 [data-bs-theme="dark"] .contact-form input,
 [data-bs-theme="dark"] .contact-form textarea {
