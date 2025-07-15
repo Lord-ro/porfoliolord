@@ -13,12 +13,7 @@ Portafolio profesional de Rogelio Barreiros Prada, diseñador web freelance. Est
 - Tema claro/oscuro configurable por el usuario
 - Efectos de scroll suaves y animaciones
 
-  ## Construido con 🛠️
- Herramientas utilizadas para crear el proyecto
-
-Javascript - El framework web usado
-HTML - Manejador del codigo principal
-CSS - Usado para generar los estilos
+ 
 
   ## Instalación
 
@@ -35,53 +30,56 @@ Instala Live Server en VS Code
 
 Haz clic en "Go Live" en la barra inferior de VS Code
 
-Uso
-Este portafolio está diseñado para:
+## Uso
 
-Mostrar mis habilidades y experiencia a potenciales clientes
+- Este portafolio está diseñado para:
 
-Presentar mis proyectos más relevantes
+- Mostrar mis habilidades y experiencia a potenciales clientes
 
-Permitir que los visitantes se pongan en contacto conmigo fácilmente
+- Presentar mis proyectos más relevantes
 
-Para visitantes:
+- Permitir que los visitantes se pongan en contacto conmigo fácilmente
 
-Navega por las diferentes secciones usando el menú superior
+## Para visitantes:
 
-Prueba el selector de tema claro/oscuro
+- Navega por las diferentes secciones usando el menú superior
 
-Usa el formulario de contacto para enviarme un mensaje
+- Prueba el selector de tema claro/oscuro
 
-Tecnologías utilizadas
-HTML5 semántico
+- Usa el formulario de contacto para enviarme un mensaje
 
-CSS3 moderno (Flexbox, Grid)
+## Tecnologías utilizadas
 
-JavaScript (ES6+)
+- HTML5 semántico
 
-Bootstrap 5
+- CSS3 moderno (Flexbox, Grid)
 
-Font Awesome para iconos
+- JavaScript (ES6+)
 
-SweetAlert2 para mensajes emergentes
+- Bootstrap 5
 
-Contribuciones
-¡Las contribuciones son bienvenidas! Si encuentras algún error o tienes sugerencias para mejorar:
+- Font Awesome para iconos
 
-Haz un fork del proyecto
+- SweetAlert2 para mensajes emergentes
 
-Crea una rama con tu feature/corrección (git checkout -b feature/mejora)
+## Contribuciones
 
-Haz commit de tus cambios (git commit -m 'Añade alguna mejora')
+- ¡Las contribuciones son bienvenidas! Si encuentras algún error o tienes sugerencias para mejorar:
 
-Haz push a la rama (git push origin feature/mejora)
+- Haz un fork del proyecto
 
-Abre un Pull Request
+- Crea una rama con tu feature/corrección (git checkout -b feature/mejora)
 
-Licencia
+- Haz commit de tus cambios (git commit -m 'Añade alguna mejora')
+
+- Haz push a la rama (git push origin feature/mejora)
+
+- Abre un Pull Request
+
+## Licencia
 Este proyecto está bajo la licencia . Consulta el archivo LICENSE para más información.
 
-Contacto
+## Contacto
 📧 Email: rogelio_barreiro@hotmail.com
 
 Pagina Web: https://lord-ro.github.io/porfoliolord/
