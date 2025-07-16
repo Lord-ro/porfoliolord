@@ -9,7 +9,63 @@
    
    
 
-  
+  .electric-logo {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        position: relative;
+        overflow: hidden;
+        padding: 0 10px;
+    }
+    
+    .lightning-container {
+        position: relative;
+        margin-right: 10px;
+    }
+    
+    .lightning-icon {
+        color: #f8d521;
+        font-size: 1.5em;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .lightning-effect {
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        width: 40px;
+        height: 40px;
+        background: radial-gradient(circle, rgba(248,213,33,0.8) 0%, rgba(248,213,33,0) 70%);
+        border-radius: 50%;
+        opacity: 0;
+        z-index: 1;
+        animation: electricPulse 3s infinite;
+    }
+    
+    .logo-text {
+        position: relative;
+    }
+    
+    .logo-text::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #f8d521;
+        transition: width 0.3s ease;
+    }
+    
+    .electric-logo:hover .logo-text::after {
+        width: 100%;
+    }
+    
+    @keyframes electricPulse {
+        0%, 100% { transform: scale(0.8); opacity: 0; }
+        50% { transform: scale(1.2); opacity: 0.6; }
+    }
 
 
 :root {
@@ -390,8 +446,8 @@ button:active {
 
 /* Footer */
 footer {
-    background-color: rgb(59, 57, 57);
-    color: var(--light-text);
+    background-color: rgb(58, 53, 53);
+    color: rgb(224, 226, 230);
     text-align: center;
     padding: 2rem;
 }
@@ -604,7 +660,7 @@ footer {
 }
 
 [data-bs-theme="dark"] footer {
-    background-color: #1a1a1a;
+    
     color: #f8f9fa;
     border-top: 1px solid #333;
 }

@@ -217,6 +217,7 @@ document.addEventListener('DOMContentLoaded', function () {
             `;
 
          // Aplicar el tema actual al modal
+         
          if (body.classList.contains(darkThemeClass)) {
             modal.classList.add(darkThemeClass);
             modal.classList.remove(lightThemeClass);
@@ -230,6 +231,7 @@ document.addEventListener('DOMContentLoaded', function () {
          document.body.style.overflow = 'hidden';
 
          // Enfocar el modal para accesibilidad
+
          modal.focus();
       }
    }
