@@ -61,6 +61,10 @@
     .electric-logo:hover .logo-text::after {
         width: 100%;
     }
+
+
+
+ 
     
     @keyframes electricPulse {
         0%, 100% { transform: scale(0.8); opacity: 0; }

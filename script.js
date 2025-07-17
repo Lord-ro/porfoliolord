@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-   // Variables globales
+  
    const navbar = document.querySelector('.navbar');
    const navLinks = document.querySelector('.nav-links');
    const hamburger = document.querySelector('.hamburger');
