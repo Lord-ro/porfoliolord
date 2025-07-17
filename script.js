@@ -16,6 +16,17 @@ document.addEventListener('DOMContentLoaded', function () {
    const themeToggleBtn = document.getElementById('theme-toggle');
    const body = document.body;
 
+
+   // Track eventos importantes
+   
+document.querySelectorAll('.view-details').forEach(btn => {
+  btn.addEventListener('click', () => {
+    gtag('event', 'view_project', {
+      'project_name': btn.dataset.project
+    });
+  });
+});
+
    // Clases para el tema del modal
    const darkThemeClass = 'dark-theme';
    const lightThemeClass = 'light-theme';
