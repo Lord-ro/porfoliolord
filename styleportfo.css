@@ -146,6 +146,12 @@ body {
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
 
 #hero {
     position: relative;
@@ -190,6 +196,9 @@ body {
     margin-bottom: 2rem;
     color: rgb(30, 95, 170);
 }
+
+
+
 
 .cta-button {
     display: inline-block;
@@ -271,6 +280,8 @@ button:active {
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
 }
+
+
 
 .profile-img {
     flex: 1;
@@ -476,9 +487,22 @@ footer {
     color: #ddd;
 }
 
- 
+.back-to-top{
+    
+    width: 50px;
+    border-radius: 80%;
+     background-color: rgb(195, 206, 48);
 
+}
+.back-to-top.active {
+    opacity: 1;
+    visibility: visible;
+}
 
+.back-to-top:hover {
+    background-color: var(--accent-color);
+    transform: translateY(-5px);
+}
        
         @keyframes modalFadeIn {
             from {
